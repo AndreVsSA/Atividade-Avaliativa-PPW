@@ -9,8 +9,16 @@ body {
 h1{
     margin: 0;
 }
+.logo_centro {
+    width: 200px;
+    margin: 0 auto;
+}
+.logo_centro h1 {
+    text-align: center;
+}
 .menu{
-    margin: 0;
+
+    margin: 0 20%;
     padding: 0;
     list-style: none;
     background-color: #BD86CB;
@@ -53,7 +61,7 @@ h1{
     
 }form {
     /* Apenas para centralizar o form na página */
-    margin: 0 auto;
+    margin: 10px auto;
     width: 400px;
     /* Para ver as bordas do formulário */
     padding: 1em;
@@ -102,7 +110,22 @@ button {
 .button button:hover{
     background: #671B7D;
 }
+.text p{
+margin: 10px 20%;
+text-align: justify;
+}
+.cenario{
+    margin: 10px 20%;
+    padding: 1em;
+    
+    border-radius: 1em;
+    border: 1px solid #999;
 
+}
+
+.cenario img{
+    width: 100%;
+}
 
 
 
